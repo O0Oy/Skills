@@ -1,0 +1,19 @@
+---
+description: Awareness of mattpocock/skills installed in this workspace
+alwaysApply: true
+---
+
+This workspace has 41 mattpocock/skills installed at `.agents/skills/`.
+A meta-skill navigator is at `.cursor/skills/use-mattpocock-skills/SKILL.md`.
+
+When the user describes a task, consider which skill fits before acting:
+- New feature → `/grill-with-docs` → `/to-spec` → `/to-tickets` → `/implement`
+- Bug fix → `/diagnosing-bugs` or `/tdd`
+- Architecture → `/improve-codebase-architecture`
+- Code review → `/code-review`
+- Not sure → read `.cursor/skills/use-mattpocock-skills/SKILL.md`
+
+After completing a significant workflow, suggest running `/skills-review` to capture feedback.
+
+Issue tracker: GitHub Issues (`docs/agents/issue-tracker.md`).
+Domain docs: `CONTEXT.md` + `docs/adr/` (single-context layout).
